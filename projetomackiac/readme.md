@@ -15,14 +15,13 @@ Python (para o código das funções Lambda).
 A estrutura do projeto é a seguinte:
 
 /projetomackiac
-│
-├── /modulos                 # Módulos reutilizáveis para recursos
-│   ├── /lambda              # Configuração de funções Lambda
-│   └── /sqs                 # Configuração de filas SQS
+/modulos                 # Módulos reutilizáveis para recursos
+├── /lambda              # Configuração de funções Lambda
+└── /sqs                 # Configuração de filas SQS
 │
 ├── /lambdas                 # Código das funções Lambda
-│   ├── handler_query.py     # Código da função de consultas
-│   └── handler_command.py   # Código da função de comandos
+├── handler_query.py     # Código da função de consultas
+└── handler_command.py   # Código da função de comandos
 │
 ├── main.tf                  # Arquivo principal do Terraform
 ├── variaveis.tf             # Declaração de variáveis globais
